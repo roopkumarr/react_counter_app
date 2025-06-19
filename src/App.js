@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CounterClassComponent from './Components/CounterClassComponent';
 import CounterFunctionalComponent from './Components/CounterFunctionalComponent';
@@ -7,24 +6,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <CounterClassComponent/>
-        </p>
-        <p>
-          <CounterFunctionalComponent/>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Assignment-2 Counter Application
+        <div className='App-counter'>
+          <div className='App-classComp'>
+            <CounterClassComponent/>
+          </div>
+          <div className='App-functComp'>
+            <CounterFunctionalComponent/>
+          </div>
+        </div>
+        
       </header>
     </div>
   );

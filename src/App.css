@@ -24,6 +24,22 @@
   color: white;
 }
 
+.App-counter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.App-functComp {
+  background-color: #15cb61;
+  width: 100%;
+}
+
+.App-classComp {
+  background-color: #2118cd;
+  width: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
