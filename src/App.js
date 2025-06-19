@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CounterClassComponent from './Components/CounterClassComponent';
+import CounterFunctionalComponent from './Components/CounterFunctionalComponent';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         </p>
         <p>
           <CounterClassComponent/>
+        </p>
+        <p>
+          <CounterFunctionalComponent/>
         </p>
         <a
           className="App-link"
