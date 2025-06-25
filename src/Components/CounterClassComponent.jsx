@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class CounterClassComponent extends Component{
     constructor(){
         super();
-        this.state={
+        this.state = {
             classCounter : 0
         }
     }
@@ -15,7 +15,6 @@ class CounterClassComponent extends Component{
     incClassCounter(){
         this.setState({
             classCounter : this.state.classCounter + 1
-
         })
     }
     decClassCounter(){
